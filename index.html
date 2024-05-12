@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Name</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #666;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+
+            padding: 20px;
+            text-align: center;
+            .apply-section {
+             background-image: url("mm.jpg");
+             background-image: image-set(1000px);
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        .apply-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .apply-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .apply-form input[type="text"],
+        .apply-form input[type="email"],
+        .apply-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .apply-form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .apply-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .image-container img {
+            width: 200px;
+            height: auto;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .welcome-text {
+            margin: 0;
+            padding: 0;
+            background-image: url('11.jpg'); /* Replace 'background.jpg' with your image file path */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nosharwan Transports</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <div class="welcome-text">
+        <h2>Welcome to our website!</h2>
+        <p>This is where you can introduce your business and provide a brief overview of what you offer.</p>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum deserunt, fugiat fuga id eius voluptate deleniti aut obcaecati cumque officia, rem possimus quibusdam dolore saepe mollitia sapiente natus laboriosam itaque!</p>
+        <div class="image-container">
+            <img src="4.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit officiis magnam enim alias architecto, repellendus ut nostrum facere autem, a molestiae earum cumque optio eligendi quam, perspiciatis iure beatae quos!.</p>
+    <section class="apply-section">
+        <h2>Apply for Services</h2>
+        <div class="apply-form">
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="service">Select Service:</label>
+                <select id="service" name="service" required>
+                    <option value="Service 1">Service 1</option>
+                    <option value="Service 2">Service 2</option>
+                    <option value="Service 3">Service 3</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Nosharwan Arif</p>
+        <p>f2021266135@umt.edu.pk</p>
+        <p>04389164629</p>
+    </section>
+    <footer>
+        <p>&copy; Nosharwan Transports.</p>
+    </footer>
+</body>
+</html>
